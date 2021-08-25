@@ -1,0 +1,16 @@
+PODS:
+  - WHToast (0.0.8)
+
+DEPENDENCIES:
+  - WHToast
+
+SPEC REPOS:
+  trunk:
+    - WHToast
+
+SPEC CHECKSUMS:
+  WHToast: 5da5bb80bdd1fea9455d4215577d9c5be2c506b8
+
+PODFILE CHECKSUM: fb15d871131fc6fa01acb5bd550dd325a49dd710
+
+COCOAPODS: 1.10.1

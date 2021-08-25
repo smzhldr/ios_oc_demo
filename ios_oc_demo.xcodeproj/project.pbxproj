@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12637C38267DF7390093B515 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 12637C37267DF7390093B515 /* Podfile */; };
+		12637C3B267E520B0093B515 /* SongModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12637C3A267E520B0093B515 /* SongModel.m */; };
+		12BBF73A26727E7E00543478 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BBF73926727E7E00543478 /* Media.xcassets */; };
+		12BBF74A267BB3C200543478 /* CustomUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BBF749267BB3C200543478 /* CustomUITableViewCell.m */; };
+		12C58420267DE0A300E317A2 /* MediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C5841F267DE0A300E317A2 /* MediaManager.m */; };
 		12FD491626459B2C0071AD7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FD491526459B2C0071AD7D /* AppDelegate.m */; };
 		12FD491926459B2C0071AD7D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FD491826459B2C0071AD7D /* SceneDelegate.m */; };
 		12FD491C26459B2C0071AD7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FD491B26459B2C0071AD7D /* ViewController.m */; };
@@ -14,9 +19,18 @@
 		12FD492126459B2F0071AD7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FD492026459B2F0071AD7D /* Assets.xcassets */; };
 		12FD492426459B2F0071AD7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FD492226459B2F0071AD7D /* LaunchScreen.storyboard */; };
 		12FD492726459B2F0071AD7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FD492626459B2F0071AD7D /* main.m */; };
+		20490DD2BAFCF6E18C86FA25 /* Pods_ios_oc_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBE9D28396512A329BDB39F /* Pods_ios_oc_demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12637C37267DF7390093B515 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		12637C39267E520B0093B515 /* SongModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongModel.h; sourceTree = "<group>"; };
+		12637C3A267E520B0093B515 /* SongModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongModel.m; sourceTree = "<group>"; };
+		12BBF73926727E7E00543478 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		12BBF748267BB3C200543478 /* CustomUITableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomUITableViewCell.h; sourceTree = "<group>"; };
+		12BBF749267BB3C200543478 /* CustomUITableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomUITableViewCell.m; sourceTree = "<group>"; };
+		12C5841E267DE0A300E317A2 /* MediaManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaManager.h; sourceTree = "<group>"; };
+		12C5841F267DE0A300E317A2 /* MediaManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaManager.m; sourceTree = "<group>"; };
 		12FD491126459B2C0071AD7D /* ios_oc_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_oc_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FD491426459B2C0071AD7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		12FD491526459B2C0071AD7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +43,9 @@
 		12FD492326459B2F0071AD7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12FD492526459B2F0071AD7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12FD492626459B2F0071AD7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DBE9D28396512A329BDB39F /* Pods_ios_oc_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_oc_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		359E54B2AF3312EF1D9A1275 /* Pods-ios_oc_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_oc_demo.release.xcconfig"; path = "Target Support Files/Pods-ios_oc_demo/Pods-ios_oc_demo.release.xcconfig"; sourceTree = "<group>"; };
+		BFA64C823390A3F14ABFF586 /* Pods-ios_oc_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_oc_demo.debug.xcconfig"; path = "Target Support Files/Pods-ios_oc_demo/Pods-ios_oc_demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +53,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20490DD2BAFCF6E18C86FA25 /* Pods_ios_oc_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12C5841D267DE05800E317A2 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				12C5841E267DE0A300E317A2 /* MediaManager.h */,
+				12C5841F267DE0A300E317A2 /* MediaManager.m */,
+				12637C39267E520B0093B515 /* SongModel.h */,
+				12637C3A267E520B0093B515 /* SongModel.m */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
 		12FD490826459B2C0071AD7D = {
 			isa = PBXGroup;
 			children = (
+				12637C37267DF7390093B515 /* Podfile */,
+				12BBF73926727E7E00543478 /* Media.xcassets */,
 				12FD491326459B2C0071AD7D /* ios_oc_demo */,
 				12FD491226459B2C0071AD7D /* Products */,
+				D9D27C9FABBED13470602EC7 /* Pods */,
+				7E34CB6A49BA2394F95EFAFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +94,7 @@
 		12FD491326459B2C0071AD7D /* ios_oc_demo */ = {
 			isa = PBXGroup;
 			children = (
+				12C5841D267DE05800E317A2 /* data */,
 				12FD491426459B2C0071AD7D /* AppDelegate.h */,
 				12FD491526459B2C0071AD7D /* AppDelegate.m */,
 				12FD491726459B2C0071AD7D /* SceneDelegate.h */,
@@ -72,8 +106,27 @@
 				12FD492226459B2F0071AD7D /* LaunchScreen.storyboard */,
 				12FD492526459B2F0071AD7D /* Info.plist */,
 				12FD492626459B2F0071AD7D /* main.m */,
+				12BBF748267BB3C200543478 /* CustomUITableViewCell.h */,
+				12BBF749267BB3C200543478 /* CustomUITableViewCell.m */,
 			);
 			path = ios_oc_demo;
+			sourceTree = "<group>";
+		};
+		7E34CB6A49BA2394F95EFAFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DBE9D28396512A329BDB39F /* Pods_ios_oc_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9D27C9FABBED13470602EC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFA64C823390A3F14ABFF586 /* Pods-ios_oc_demo.debug.xcconfig */,
+				359E54B2AF3312EF1D9A1275 /* Pods-ios_oc_demo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12FD492A26459B2F0071AD7D /* Build configuration list for PBXNativeTarget "ios_oc_demo" */;
 			buildPhases = (
+				B0A67CB8A6266DA665B98EDF /* [CP] Check Pods Manifest.lock */,
 				12FD490D26459B2C0071AD7D /* Sources */,
 				12FD490E26459B2C0071AD7D /* Frameworks */,
 				12FD490F26459B2C0071AD7D /* Resources */,
+				93C3D80C52B9D15EFEAD29A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +187,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12637C38267DF7390093B515 /* Podfile in Resources */,
 				12FD492426459B2F0071AD7D /* LaunchScreen.storyboard in Resources */,
 				12FD492126459B2F0071AD7D /* Assets.xcassets in Resources */,
+				12BBF73A26727E7E00543478 /* Media.xcassets in Resources */,
 				12FD491F26459B2C0071AD7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93C3D80C52B9D15EFEAD29A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_oc_demo/Pods-ios_oc_demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_oc_demo/Pods-ios_oc_demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios_oc_demo/Pods-ios_oc_demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A67CB8A6266DA665B98EDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_oc_demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12FD490D26459B2C0071AD7D /* Sources */ = {
@@ -147,7 +246,10 @@
 			files = (
 				12FD491C26459B2C0071AD7D /* ViewController.m in Sources */,
 				12FD491626459B2C0071AD7D /* AppDelegate.m in Sources */,
+				12C58420267DE0A300E317A2 /* MediaManager.m in Sources */,
+				12637C3B267E520B0093B515 /* SongModel.m in Sources */,
 				12FD492726459B2F0071AD7D /* main.m in Sources */,
+				12BBF74A267BB3C200543478 /* CustomUITableViewCell.m in Sources */,
 				12FD491926459B2C0071AD7D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,33 +390,38 @@
 		};
 		12FD492B26459B2F0071AD7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA64C823390A3F14ABFF586 /* Pods-ios_oc_demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJ65NP4C7S;
 				INFOPLIST_FILE = ios_oc_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-2345.ios-oc-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioc.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SYSTEM_HEADER_SEARCH_PATHS[arch=*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		12FD492C26459B2F0071AD7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 359E54B2AF3312EF1D9A1275 /* Pods-ios_oc_demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJ65NP4C7S;
 				INFOPLIST_FILE = ios_oc_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-2345.ios-oc-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioc.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
